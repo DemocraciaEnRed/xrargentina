@@ -32,6 +32,7 @@
       text-align: center
       font-weight: 500
       margin-bottom: 20px
+      color: $main-color
 
     .forums-list-item
       max-width: 100%
@@ -103,15 +104,20 @@
         flex-direction:column
       width:30% !important
       .icon
-        width:100px
-        float: left
+        width:90px
+        @media (min-width: 460px)
+          width:120px
+        float: none
+        margin: 0 auto
+        display: block
       .text
-        padding-left: 115px
-        @media (max-width: 760px)
-          padding-left:10px
         padding-top: 10px
         font-weight: 100
-        font-size: 14px
+        text-align: center
+        h5
+          font-size: 18px
+          @media (min-width: 460px)
+            font-size: 20px
 
   .fa-group
     background-image: url("lib/frontend/site/home-multiforum/users.svg")
