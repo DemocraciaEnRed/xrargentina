@@ -33,12 +33,13 @@
     color: #000
     .forum-card-header
       .forum-card-title
-        font-size: 21px
-        font-weight: 400
+        font-size: 30px
+        font-weight: bold
         line-height: 37px
         margin: 0
         @media screen and (max-width: 750px)
           margin-top:10px
+          font-size: 21px
       .forum-card-author
         font-size: 20px
         font-weight: 400
@@ -48,14 +49,20 @@
 
     .forum-card-body
       .forum-card-description
-        font-family:Georgia
-        font-size: 17px
-        font-weight: 300
+        font-family: Georgia
+        font-style: normal
+        font-weight: normal
+        font-size: 20px
+        line-height: 23px
         color: #595959
 
     .forum-card-footer
       .btn.btn-link
         text-decoration: none !important
+        background-color: $main-color !important
+        color: white
+        &:hover
+          background-color: $main-color-resalted !important
 
   &:before
     content: ''
