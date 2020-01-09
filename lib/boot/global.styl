@@ -27,6 +27,17 @@ a:hover, a:focus, a:active
 .bg-primary
   //en poncho le ponen !important así que hay que hacer lo mismo para pisarlo
   background-color: $primary-color !important
+
+// Mixins - http://stylus-lang.com/docs/mixins.html
+uppercase()
+  text-transform: uppercase
+  font-family: 'FUCXED CAPS'
+// clase de mixin
+.uppercase
+  uppercase()
+  
+.btn
+  uppercase()
   
 // estos botones son los de fondo gris y texto de color
 .btn-link
@@ -101,5 +112,3 @@ a:hover, a:focus, a:active
 
 .btn-outline-success:hover
   background-color: $success-color
-
-  

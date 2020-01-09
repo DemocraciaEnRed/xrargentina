@@ -8,7 +8,19 @@
 
 /* General
 -------------------------------------------------- */
-
+// Para convertir fonts: https://onlinefontconverter.com/
+// mixin:
+include-font-files(path)
+  src: url(path + ".eot"); /* IE9 Compat Modes */
+  src: url(path + ".eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url(path + ".woff") format("woff"), /* Modern Browsers */
+       url(path + ".ttf")  format("truetype"), /* Safari, Android, iOS */
+       url(path + ".svg#svgFontName") format("svg"); /* Legacy iOS */
+       
+@font-face 
+    font-family: 'FUCXED CAPS'
+    include-font-files("lib/frontend/layout/FUCXEDCAPSRegular")
+    
 html
   -webkit-font-smoothing antialiased
 
