@@ -15,6 +15,7 @@ export default class Footer extends Component {
               </a>
             </div>
             <p className='text-muted small'>
+              Desarrollado <a href="https://github.com/DemocraciaEnRed/consultas-digitales">en código abierto</a> bajo la licencia bajo <a href='https://www.gnu.org/licenses/gpl-3.0-standalone.html'>GNU General Public License v3.0</a> por <a href="https://democraciaenred.org/">Democracia  en Red</a>
             </p>
           </div>
             <nav className='menu uppercase'>
