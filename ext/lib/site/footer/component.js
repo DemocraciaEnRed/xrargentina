@@ -15,15 +15,14 @@ export default class Footer extends Component {
               </a>
             </div>
             <p className='text-muted small'>
-              Los contenidos de esta página están licenciados bajo <a href='https://www.gnu.org/licenses/gpl-3.0-standalone.html'>GNU General Public License v3.0</a>
             </p>
           </div>
-            <nav className='menu'>
+            <nav className='menu uppercase'>
               <Link to='/ayuda/como-funciona'>¿Cómo funciona?</Link>
               <Link to='/ayuda/acerca'>Acerca de este sitio</Link>
               <Link to='/ayuda/acerca'>Contacto</Link>
             </nav>
-            <nav className='menu'>
+            <nav className='menu uppercase'>
               <Link to='/ayuda/terminos-y-condiciones'>{ t('help.tos.title')}</Link>
               <Link to='/ayuda/privacidad'>{ t('help.pp.title')}</Link>
             </nav>
