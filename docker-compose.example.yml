@@ -16,24 +16,30 @@ services:
       # Para varios admins:
       # - STAFF=hola@miemail.com,usuario@otroemail.com,otrousuario@nuevoemail.com
       # Para un solo admin:
-      - STAFF=hola@miemail.com
-      # Logo principal
-      - LOGO=/lib/frontend/site/home-multiforum/logo-header.png
-      - LOGO_MOBILE=/lib/frontend/site/home-multiforum/logo-header.png
+      - STAFF=PRUEBA_123@EMAIL.COM
+      # Imágenes principales
+      - LOGO=/lib/frontend/site/home-multiforum/logo-header.svg
+      - LOGO_MOBILE=/lib/frontend/site/home-multiforum/logo-header.svg
+      - LOGO_FOOTER=/lib/frontend/site/home-multiforum/logo-footer.svg
+      - LOGO_CENTRAL_HOME=/lib/frontend/site/home-multiforum/logo-central-home.png
+      - BACKGROUND_HOME=/lib/frontend/site/home-multiforum/background-home.jpeg
+      - ICONO_HOME_INFORMATE=/lib/frontend/site/home-multiforum/icono-home-informate.svg
+      - ICONO_HOME_PARTICIPA=/lib/frontend/site/home-multiforum/icono-home-participa.svg
+      - ICONO_HOME_COMPARTI=/lib/frontend/site/home-multiforum/icono-home-comparti.svg
       # Organización
-      - ORGANIZATION_EMAIL=miconsultadigital@midominio.com.ar
-      - ORGANIZATION_NAME=Mi Consulta Digital
-      - BAJADA_PLATAFORMA=Construyamos un país más abierto, transparente y colaborativo.
+      - ORGANIZATION_EMAIL=PRUEBA_123@EMAIL.COM
+      - ORGANIZATION_NAME=Decidir XR Argentina
+      - BAJADA_PLATAFORMA=La plataforma decidir.xrargentina.org es un espacio digital de dialogo e intercambio que permite  informarnos, debatir y  decidir sobre los temas importantes en XRArgentina.
       # Social media y email settings
-      - SOCIALSHARE_SITE_NAME=Mi Consulta Digital
-      - SOCIALSHARE_SITE_DESCRIPTION=Plataforma de participación ciudadana
+      - SOCIALSHARE_SITE_NAME=Decidir XR Argentina
+      - SOCIALSHARE_SITE_DESCRIPTION=La plataforma decidir.xrargentina.org es un espacio digital de dialogo e intercambio que permite  informarnos, debatir y  decidir sobre los temas importantes en XRArgentina.",
       - SOCIALSHARE_IMAGE=https://urlexterno.com/mi-imagen-externa.png
-      - SOCIALSHARE_DOMAIN=miconsultadigital.midominio.com
-      - SOCIALSHARE_TWITTER_USERNAME=@miConsultaDigital
+      - SOCIALSHARE_DOMAIN=decidir.xrargentina.org
+      - SOCIALSHARE_TWITTER_USERNAME=@XrArgentina
       - TWEET_TEXT=Participá en {organizationName}.\n\n{bajadaPlataforma}\n
       # Configuracion del mailer
       - NOTIFICATIONS_MAILER_EMAIL=miconsultapublica@midominio.com
-      - NOTIFICATIONS_MAILER_NAME=Mi Consulta Digital
+      - NOTIFICATIONS_MAILER_NAME=Decidir XR Argentina
       - NOTIFICATIONS_NODEMAILER={"host:"xxxxx.smtp.com","port":465,"secure":true,"auth":{"user":"xxxxxxxx","pass":"xxxxxxx"}} #Cambiar
       # El mail del que recibe los pedidos de verificación de cuentas
       - VERIFY_USER_REQUEST_EMAIL=unmail@correo.com
