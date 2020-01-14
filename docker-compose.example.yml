@@ -29,10 +29,10 @@ services:
       # Organización
       - ORGANIZATION_EMAIL=PRUEBA_123@EMAIL.COM
       - ORGANIZATION_NAME=Decidir XR Argentina
-      - BAJADA_PLATAFORMA=La plataforma decidir.xrargentina.org es un espacio digital de dialogo e intercambio que permite  informarnos, debatir y  decidir sobre los temas importantes en XRArgentina.
+      - BAJADA_PLATAFORMA=La plataforma decidir.xrargentina.org es un espacio digital de diálogo e intercambio que permite  informarnos, debatir y  decidir sobre los temas importantes en XRArgentina.
       # Social media y email settings
       - SOCIALSHARE_SITE_NAME=Decidir XR Argentina
-      - SOCIALSHARE_SITE_DESCRIPTION=La plataforma decidir.xrargentina.org es un espacio digital de dialogo e intercambio que permite  informarnos, debatir y  decidir sobre los temas importantes en XRArgentina.",
+      - SOCIALSHARE_SITE_DESCRIPTION=La plataforma decidir.xrargentina.org es un espacio digital de diálogo e intercambio que permite  informarnos, debatir y  decidir sobre los temas importantes en XRArgentina.",
       - SOCIALSHARE_IMAGE=https://urlexterno.com/mi-imagen-externa.png
       - SOCIALSHARE_DOMAIN=decidir.xrargentina.org
       - SOCIALSHARE_TWITTER_USERNAME=@XrArgentina
