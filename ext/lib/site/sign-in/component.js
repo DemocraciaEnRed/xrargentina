@@ -109,7 +109,7 @@ export class SignIn extends Component {
             maxLength='200'
             required />
         </div>
-        <div className='form-group'>
+        {/*<div className='form-group'>
           <div className='signup'>
             <span>{t('signin.dont-have-account')}</span>
             <Link
@@ -118,7 +118,7 @@ export class SignIn extends Component {
               {t('signin.action.signup')}
             </Link>
           </div>
-        </div>
+        </div>*/}
         <div className='form-group' />
         {!this.state.loading && (
           <button
@@ -156,4 +156,3 @@ export class SignIn extends Component {
 }
 
 export default userConnector(SignIn)
-
