@@ -2,10 +2,13 @@
 	"locale": "es",
 	"enforceLocale": true,
 	"multiForum": true,
+  "restrictForumCreation": true,
 	"staff": ["unmail@mail.com"],
-    "verifyUserRequestEmail": "unmail@mail.com",
-	"organizationName": "Mi Consulta Digital",
-    "bajadaPlataforma": "Construyamos un país más abierto, transparente y colaborativo.",
+  "verifyUserRequestEmail": "unmail@mail.com",
+	"organizationName": "Decidir XR Argentina",
+  "bajadaPlataforma": "La plataforma decidir.xrargentina.org es un espacio digital de diálogo e intercambio que permite  informarnos, debatir y  decidir sobre los temas importantes en XRArgentina.",
 	"logo": "/lib/frontend/site/home-multiforum/logo-header.png",
-	"logoMobile": "/lib/frontend/site/home-multiforum/logo-header.png"
+	"logoMobile": "/lib/frontend/site/home-multiforum/logo-header.png",
+	"favicon": "/lib/boot/favicon.png",
+	"visibility": "hidden"
 }

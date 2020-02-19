@@ -47,8 +47,9 @@ services:
       # la segunda es para obligar el idioma (sino lo autodetecta y puede usar otro)
       - LOCALE=es
       - ENFORCE_LOCALE=true
+      - VISIBILITY=hidden
     links:
-      - mongo 
+      - mongo
     ports:
       - 3000:3000
     volumes:
@@ -62,7 +63,7 @@ services:
       - 27017:27017
     volumes:
       - ./tmp/db:/data/db
-      
+
 #  mailserver:
 #    image: namshi/smtp
 #    environment:
