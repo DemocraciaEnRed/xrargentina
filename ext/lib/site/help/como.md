@@ -7,7 +7,7 @@
 * [¿Cómo puedo compartir una consulta?](#compartir-consulta)
 
 ### ¿Cómo crear un usuario? <a name="crear-usuario"></a>
-Hacer click en la opción **“ingresar”**, ubicada en la parte superior derecha de la pantalla. Para registrarte, debes elegir la opción **“registrarse”**, completar tus datos y enviar el formulario. Luego, recibirás un mail en tu correo electrónico con un link para validar tu usuario. Una vez validado, podés participar. 
+Hacer click en la opción **“ingresar”**, ubicada en la parte superior derecha de la pantalla. Para registrarte, debés elegir la opción **“registrarse”**, completar tus datos y enviar el formulario. Luego, recibirás un mail en tu correo electrónico con un link para validar tu usuario. Una vez validado, podés participar.
 
 ![Imagen](/ext/lib/site/help/register.png)
 
@@ -20,20 +20,20 @@ Una vez registrada/o, en la parte superior derecha de la pantalla aparecerá tu 
 En **"Notificaciones”**, podés determinar las preferencias de las notificaciones y en **“Configuración”** definir tus __datos personales__ (nombre, apellido), modificar tu __contraseña__ y agregar un __foto de perfil__. Para tener una foto de perfil hay que pegar la URL de una imagen tuya. La forma más sencilla de hacerlo es ir a cualquier de tus redes sociales y en la foto que quieras, hacer click derecho y seleccionar “copiar URL de la imagen”. Otra forma de hacerlo es subir alguna imagen a un servidor (como por ejemplo <a target="_blank" href="https://es.imgbb.com/">https://es.imgbb.com/</a> ) y hacer el mismo proceso.
 
 ### ¿Cómo está estructurado el sitio? <a name="estructura-del-sitio"></a>
-En el sitio se tratan temas e iniciativas, abiertas a la participación de la ciudadanía a través de comentarios y acciones. A estos temas e iniciativas las llamamos “Consulta”. 
+En el sitio se tratan temas e iniciativas, abiertas a la participación de la ciudadanía a través de comentarios y acciones. A estos temas e iniciativas las llamamos “Consulta”.
 
-Las consultas se muestran por los filtros de “nuevas”, “relevantes” y “finalizadas”. La consulta está dividida en **ejes**, que comprenden distintos aspectos del tema abierto a debate. Se puede ingresar a los ejes directamente desde la pantalla principal. 
+Las consultas se muestran por los filtros de “nuevas”, “relevantes” y “finalizadas”. La consulta está dividida en **ejes**, que comprenden distintos aspectos del tema abierto a debate. Se puede ingresar a los ejes directamente desde la pantalla principal.
 
 ![Imagen](/ext/lib/site/help/consultas-search.png)   
 ![Imagen](/ext/lib/site/help/consulta-topics.png)
 
-Para ver la consulta completa y todos los ejes elegí **“ver más información”**, donde hay una descripción y explicación de la consulta. 
+Para ver la consulta completa y todos los ejes elegí **“ver más información”**, donde hay una descripción y explicación de la consulta.
 
 Cada **eje** está abierto para participar durante un periodo de tiempo desde la fecha de publicación.
 
 ### ¿Cómo participo? <a name="participacion"></a>
 
-Se puede participar realizando comentarios y aportes en el **foro de debate**. Dentro de cada eje publicado, existe un espacio para hacer comentarios sobre las temáticas y expresarse sobre la discusión abierta. Una vez finalizado el tiempo estipulado de la consulta, no se puede seguir participando. 
+Se puede participar realizando comentarios y aportes en el **foro de debate**. Dentro de cada eje publicado, existe un espacio para hacer comentarios sobre las temáticas y expresarse sobre la discusión abierta. Una vez finalizado el tiempo estipulado de la consulta, no se puede seguir participando.
 
 ![Imagen](/ext/lib/site/help/comentarios.png)
 
