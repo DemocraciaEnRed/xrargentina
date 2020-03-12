@@ -10,5 +10,16 @@
 	"logo": "/lib/frontend/site/home-multiforum/logo-header.png",
 	"logoMobile": "/lib/frontend/site/home-multiforum/logo-header.png",
 	"favicon": "/lib/boot/favicon.png",
-	"visibility": "hidden"
+	"visibility": "hidden",
+	"notifications": {
+		"nodemailer": {
+			"host": "smtp.mailgun.org",
+			"port": 465,
+			"secure": true,
+			"auth": {
+				"user": "__CUENTA__",
+				"pass": "__CONTRA__"
+			}
+		}
+	}
 }
