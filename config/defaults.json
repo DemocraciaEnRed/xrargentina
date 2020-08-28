@@ -97,7 +97,8 @@
     "spamLimit",
     "availableLocales",
     "warnHTTP",
-    "recaptchaSite"
+    "recaptchaSite",
+    "discourseSignin"
   ],
   "socialshare": {
     "siteName": "DemocracyOS",
@@ -155,5 +156,8 @@
     "uk",
     "zh_TW"
   ],
-  "enforceLocale": false
+  "enforceLocale": false,
+  "discourseSignin": false,
+  "discourseBaseUrl": "",
+  "discourseSecret": ""
 }
