@@ -119,7 +119,6 @@ export class SignIn extends Component {
             </Link>
           </div>
         </div>*/}
-        <div className='form-group' />
         {!this.state.loading && (
           <button
             className='btn btn-block btn-primary'
@@ -149,6 +148,15 @@ export class SignIn extends Component {
               <h1>{t('header.signin')}</h1>
             </div>
         </div>
+        {config.discourseSignin &&
+          <a
+            href='/auth/discourse_sso'
+            className='btn btn-block btn-discourse'
+            type='submit'>
+            <i className='icon-social-discourse' />
+            Iniciar sesión con Discourse
+          </a>
+        }
         {form}
       </div>
     )
