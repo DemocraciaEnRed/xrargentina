@@ -148,16 +148,17 @@ export class SignIn extends Component {
               <h1>{t('header.signin')}</h1>
             </div>
         </div>
-        {config.discourseSignin &&
+        {config.discourseSignin ?
           <a
             href='/auth/discourse_sso'
             className='btn btn-block btn-discourse'
             type='submit'>
             <i className='icon-social-discourse' />
-            Iniciar sesión con Discourse
+            Ingresar con mi cuenta de XR
           </a>
+        :
+          form
         }
-        {form}
       </div>
     )
   }
